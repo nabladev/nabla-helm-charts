@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: online-app-set
+spec:
+  generators:
+  - list:
+      elements:
+      - tenant: atg
+        version: 0.1.0
+      - tenant: alabama
+        version: 0.1.0
+      - tenant: florida
+        version: 0.1.0
+  template:
+    metadata:
+      name: '{{tenant}}-guestbook'
+    spec:
+      project: default
+      source:
+        repoURL: https://nabladev.github.io/nabla-helm-charts/
+        targetRevision: HEAD
+        path: online
+        chart: online
+        targetRevision: {{ version }}
+        helm:
+          releaseName: online-release
+      destination:
+        server: "https://kubernetes.default.svc"
+        namespace: {{tenant}}
