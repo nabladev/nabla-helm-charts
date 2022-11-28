@@ -20,11 +20,11 @@ spec:
       source:
         repoURL: https://nabladev.github.io/nabla-helm-charts/
         targetRevision: HEAD
-        path: online
-        chart: online
-        targetRevision: {{ version }}
+        path: online-single
+        chart: online-single
+        targetRevision: '{{ version }}'
         helm:
-          releaseName: online-release
+          releaseName: online-single-release
       destination:
         server: "https://kubernetes.default.svc"
-        namespace: {{tenant}}
+        namespace: '{{tenant}}'

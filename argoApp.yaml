@@ -8,8 +8,8 @@ spec:
   source:
     repoURL: https://nabladev.github.io/nabla-helm-charts/
     targetRevision: HEAD
-    path: online
-    chart: online
+    path: online-single
+    chart: online-single
     targetRevision: 0.1.0
     helm:
       releaseName: online-release
