@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  online:
+  - apiVersion: v2
+    appVersion: 1.14.2
+    created: "2022-11-28T09:59:08.306716+01:00"
+    description: A Helm chart that deploys the online app
+    digest: 1946ee43de05ce9b7a513a2a2be4e93bd1a24101d841e077920bb97631665f75
+    name: online
+    type: application
+    urls:
+    - https://nabladev.github.io/helm-chart/online-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-28T09:59:08.306045+01:00"
