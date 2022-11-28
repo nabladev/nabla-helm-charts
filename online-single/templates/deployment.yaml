@@ -11,6 +11,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: online-deployment
+  namespace: {{ .Values.tenant }}
   labels:
     app: online-nginx
 spec:
