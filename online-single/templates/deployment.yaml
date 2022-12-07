@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: online-app-body
 data:
-  body: "<html><title>Second app</title><body><div>I'm the app {{ .Values.appVersion}}!</div></body></html>"
+  body: "<html><title>Second app</title><body><div>I'm the app {{ .Values.appVersion }}!</div></body></html>"
 
 ---
 
@@ -27,6 +27,11 @@ spec:
       containers:
       - name: nginx
         image: nginx:1.23.2
+        resources:
+          requests:
+            memory: {{ .Value.resources.memoryRequest }}
+          limits:
+            memory: {{ .Value.resources.memoryLimit }}
         ports:
         - containerPort: 80
         volumeMounts:

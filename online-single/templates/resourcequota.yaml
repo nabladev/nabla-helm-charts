@@ -1,0 +1,14 @@
+# There's no way to make ResourceQuotas proportional 
+# nor elastic. We would need to write our own controller.
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: namespace-resource-quota
+  namespace: {{ .Values.tenant }}
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
+spec:
+  hard:
+    limits.cpu: {{ .Values.resources.namespace.cpuLimit }}
+    limits.memory: {{ .Values.resources.namespace.memoryLimit }}
+    pods: {{ .Values.resources.namespace.podLimit }}

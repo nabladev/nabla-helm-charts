@@ -3,3 +3,13 @@ appName: online
 
 message: "Welcome ATG!"
 tenant: atg
+
+resources:
+  pod:
+    memoryRequest: "100Mi" # 8GB
+    memoryLimit: "200Mi"
+  
+  namespace:
+    podLimit: 20
+    memoryLimit: 4GI
+    cpuLimit: 4
