@@ -30,8 +30,10 @@ spec:
         resources:
           requests:
             memory: {{ .Values.resources.pod.memoryRequest }}
+            cpu: {{ .Values.resources.pod.cpuRequest }}
           limits:
             memory: {{ .Values.resources.pod.memoryLimit }}
+            cpu: {{ .Values.resources.pod.cpuLimit }}
         ports:
         - containerPort: 80
         volumeMounts:

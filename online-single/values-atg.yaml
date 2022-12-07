@@ -8,7 +8,9 @@ resources:
   pod:
     memoryRequest: "100Mi" # 8GB
     memoryLimit: "200Mi"
-  
+    cpuRequest: "0.1"
+    cpuLimit: "0.2"
+    
   namespace:
     podLimit: 20
     memoryLimit: 4GI
