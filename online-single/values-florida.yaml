@@ -6,8 +6,8 @@ tenant: florida
 
 resources:
   pod:
-    memoryRequest: "100Mi" # 8GB
-    memoryLimit: "200Mi"
+    memoryRequest: "10Mi" # 8GB
+    memoryLimit: "20Mi"
     cpuRequest: "0.1"
     cpuLimit: "0.2"
   
