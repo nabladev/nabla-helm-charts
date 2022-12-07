@@ -13,7 +13,7 @@ resources:
 
   namespace:
     podLimit: 20
-    memoryLimit: 4GI
+    memoryLimit: 4Gi
     cpuLimit: 4
 
 replicas: 3
