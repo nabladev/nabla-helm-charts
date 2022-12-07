@@ -10,5 +10,5 @@ metadata:
 spec:
   hard:
     limits.cpu: {{ .Values.resources.namespace.cpuLimit }}
-    limits.memory: {{ .Values.resources.pod.memoryLimit }}
+    limits.memory: {{ .Values.resources.namespace.memoryLimit }}
     pods: {{ .Values.resources.namespace.podLimit }}
