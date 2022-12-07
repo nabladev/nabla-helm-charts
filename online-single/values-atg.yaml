@@ -15,3 +15,5 @@ resources:
     podLimit: 20
     memoryLimit: 4GI
     cpuLimit: 4
+
+replicas: 3
