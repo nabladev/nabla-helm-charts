@@ -3,7 +3,7 @@ entries:
   online:
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.994195+01:00"
+    created: "2022-12-07T09:55:01.177462+01:00"
     description: A Helm chart that deploys the online app
     digest: ea05e894a9eb026b8c6226c40e0c03f16968c2f7c880f4d66723dfaa001dc72e
     name: online
@@ -14,7 +14,17 @@ entries:
   online-single:
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2022-12-07T09:45:37.996096+01:00"
+    created: "2022-12-07T09:55:01.180319+01:00"
+    description: A Helm chart that deploys the online app
+    digest: d636026fb8a01247608dad54135aea8b0080b1f00ea809f782b33b0d82bcde39
+    name: online-single
+    type: application
+    urls:
+    - https://nabladev.github.io/nabla-helm-charts/online-single-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.15.0
+    created: "2022-12-07T09:55:01.180035+01:00"
     description: A Helm chart that deploys the online app
     digest: 5e40676764069cffe11603c025540e6b511708cee9d6ae99e9898aa9c90d0eaa
     name: online-single
@@ -24,7 +34,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2022-12-07T09:45:37.995962+01:00"
+    created: "2022-12-07T09:55:01.179623+01:00"
     description: A Helm chart that deploys the online app
     digest: acab864508f919c0886434081a0f1bd5e8ca151d1ae4ac2771813183d4cdb5bd
     name: online-single
@@ -34,7 +44,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.995731+01:00"
+    created: "2022-12-07T09:55:01.179269+01:00"
     description: A Helm chart that deploys the online app
     digest: 3dd8248eba42509c22db9a4a95b43dbaca31b6321b5b8faa8d768310f10b288e
     name: online-single
@@ -44,7 +54,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.99548+01:00"
+    created: "2022-12-07T09:55:01.17889+01:00"
     description: A Helm chart that deploys the online app
     digest: b0d341d20e7ce4eded9158c085f4f408a65e58d619a7a5aeedeb49b0984a7810
     name: online-single
@@ -54,7 +64,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.995228+01:00"
+    created: "2022-12-07T09:55:01.178619+01:00"
     description: A Helm chart that deploys the online app
     digest: a1b3575eb0bb9d4f4fa399acc14378de87b3158b540f4fad01b225de2cf95468
     name: online-single
@@ -64,7 +74,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.994968+01:00"
+    created: "2022-12-07T09:55:01.178343+01:00"
     description: A Helm chart that deploys the online app
     digest: b409a93742468aa68b81dab37f31c2d2bb71429c7731f6ede9e1682905409f6e
     name: online-single
@@ -74,7 +84,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.9947+01:00"
+    created: "2022-12-07T09:55:01.178041+01:00"
     description: A Helm chart that deploys the online app
     digest: b81a78180f829cf376d51d2462d6c3dfa7f9727e97161175ea62eee006e7cc12
     name: online-single
@@ -84,7 +94,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.14.2
-    created: "2022-12-07T09:45:37.994467+01:00"
+    created: "2022-12-07T09:55:01.177749+01:00"
     description: A Helm chart that deploys the online app
     digest: 8bd4cdcf910336019cf75f166af684e1eb3f569f7d14f5a9beaf2db4efec98c2
     name: online-single
@@ -92,4 +102,4 @@ entries:
     urls:
     - https://nabladev.github.io/nabla-helm-charts/online-single-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-07T09:45:37.993633+01:00"
+generated: "2022-12-07T09:55:01.17668+01:00"
