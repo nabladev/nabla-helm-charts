@@ -29,9 +29,9 @@ spec:
         image: nginx:1.23.2
         resources:
           requests:
-            memory: {{ .Value.resources.memoryRequest }}
+            memory: {{ .Values.resources.pod.memoryRequest }}
           limits:
-            memory: {{ .Value.resources.memoryLimit }}
+            memory: {{ .Values.resources.pod.memoryLimit }}
         ports:
         - containerPort: 80
         volumeMounts:
